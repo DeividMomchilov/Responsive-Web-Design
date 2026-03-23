@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: #d5d2d2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+h1{
+    font-size: 5rem;
+    padding: 0.5em;
+}
+button{
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-size: 5em;
+    border-radius: 50%;
+    margin: 0.2em;
+    background-color: blue;
+}
+button:hover{
+    background-color: rgb(15, 15, 184);
+    transform: scale(1.15);
+    transition: 150ms ease-in-out;
+}
+button:active{
+    background-color: rgb(5, 5, 68);
+}
+#playerDisplay, #computerDisplay, #resultDisplay{
+    font-size: 2em;
+}
