@@ -1,2 +1,2 @@
 The full path of FreeCodeCamp front end developer.
-Stack: HTML,CSS,JavaScript,React
+Stack: HTML5,CSS,JavaScript ES6,React, Tailwind 
